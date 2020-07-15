@@ -1,0 +1,1 @@
+flag{yafu_is_great_2}

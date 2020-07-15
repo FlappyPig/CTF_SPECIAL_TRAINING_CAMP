@@ -1,0 +1,13 @@
+service level2
+{
+	disable = no
+	socket_type = stream
+	protocol    = tcp
+	wait        = no
+	user        = root
+	type        = UNLISTED
+	port        = 10002
+	bind        = 0.0.0.0
+	server      = /usr/bin/python
+	server_args = /home/level2/level2.py
+}
