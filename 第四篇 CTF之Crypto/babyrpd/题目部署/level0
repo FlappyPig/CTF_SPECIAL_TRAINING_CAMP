@@ -1,0 +1,13 @@
+service level0
+{
+	disable = no
+	socket_type = stream
+	protocol    = tcp
+	wait        = no
+	user        = root
+	type        = UNLISTED
+	port        = 10001
+	bind        = 0.0.0.0
+	server      = /usr/bin/python
+	server_args = /root/babyrpd/babyrpd.py
+}
