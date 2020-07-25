@@ -1,0 +1,13 @@
+from zio import *  
+target = ('127.0.0.1', 13337)
+io = zio(target, timeout=10000, print_read=COLORED(NONE, 'red'), print_write=COLORED(NONE, 'green'))
+p = l64(0xd5b028b6c97155a5)
+p += l64(0x51a2c3e8e288fa45)
+p += l64(0x561720a3f926b105)
+p += l64(0xa325ec548e4e0385)
+p += l64(0x5369761ad6ccde85)
+p += l64(0x9475802813002885)
+p += l64(0xcadd6a0bdc679485)
+p += l64(0x7d67b37124bcbc85)
+io.writeline(p)
+io.interact()
