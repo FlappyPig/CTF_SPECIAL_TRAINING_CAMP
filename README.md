@@ -10,6 +10,7 @@
 
 - P277,17.2 攻防策略,后门植入策略：fork bang为书写错误，应该为fork bomb
 - P91,9.2.1 x86指令体系，栈操作与函数调用：表9-1中的+-符号写反，应该所有的加号变减号，减号变加号
+- P91,9.2.1 x86指令体系，栈操作与函数调用：表9-1中的POP的功能叙述应该为DEST = [ESP]
 - P117,10.3.2 反调试：该页最后一行中的StringOD为书写错误，应该为strongOD
 - P172,图12-12上方：关闭canary和开启canary写反，第一个应该为开启canary，第二个为关闭canary
 - P118,PTRACE_TRACEME写成了PTRACE_TRACEM
@@ -22,3 +23,4 @@
 - [Sarace](https://github.com/ttxs69)
 - [pikachu](https://hitcxy.com)
 - [liangjs](https://github.com/liangjs)
+- [Jiageng](https://github.com/skyleaworlder)
